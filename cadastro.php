@@ -7,27 +7,18 @@
 <style type="text/css">
 
 #divPrincipal{
-
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 1%;
     margin-bottom: 1%; 
     border-radius: 50px;
-
 }
-
 #body{
-
     background-color: #ffffff;
-
 }
-
 .form-control{
-
     margin-bottom: 18px;
-
 }
-
 
 </style>
 
@@ -39,6 +30,7 @@
  $pagina = '<html>
     
         <head>
+            <title>Cadastro de Vendedores</title>
         </head>
 
 
@@ -47,16 +39,16 @@
             <h4 style="margin-bottom: 20px;">Cadastro de Vendedores</h4>
             <form class="form-control" action="enviardados.php" method="POST">
 
-                <input class="form-control" type="text" placeholder="NOME*"></input>
-                <input class="form-control" type="text" placeholder="SOBRENOME*"></input>
-                <input type="text" class="form-control" placeholder="EMAIL*"></input>
+                <input class="form-control" type="text" name="nome" placeholder="NOME*"></input>
+                <input class="form-control" type="text" name="sobrenome" placeholder="SOBRENOME*"></input>
+                <input type="text" class="form-control" name="email" placeholder="EMAIL*"></input>
                 <input class="form-control" type="text" name="cep" id="cep" placeholder="CEP*"></input>
                 <input type="text" class="form-control" name="rua" id="rua" placeholder="RUA*"></input>                
                 <input class="form-control" type="text" name="bairro" id="bairro" placeholder="BAIRRO*"></input>
                 <input type="text" class="form-control" name="cidade" id="cidade" placeholder="CIDADE*"></input>
                 <input type="text" class="form-control" name="uf" id="uf" placeholder="ESTADO*"></input>
-                <input type="text" class="form-control" placeholder="NÚMERO*"></input>
-                <input type="text" class="form-control" placeholder="COMPLEMENTO*"></input>
+                <input type="text" class="form-control" name="numero" id="numero" placeholder="NÚMERO*"></input>
+                <input type="text" class="form-control" name="complemento" id="complemento" placeholder="COMPLEMENTO*"></input>
                 <div class="d-grid gap-2">
                     <button class="btn btn-dark" type="submit">CADASTRAR</button>
                 </div>
