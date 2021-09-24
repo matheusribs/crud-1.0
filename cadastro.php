@@ -26,7 +26,7 @@
 <?php
 
 
- // impressão de conteúdo HTML dentro de variável
+ // impressão de conteúdo HTML dentro de variável $pagina
  $pagina = '<html>
     
         <head>
@@ -51,6 +51,7 @@
                 <input type="text" class="form-control" name="complemento" id="complemento" placeholder="COMPLEMENTO*"></input>
                 <div class="d-grid gap-2">
                     <button class="btn btn-dark" type="submit">CADASTRAR</button>
+                    <a class="btn btn-secondary" href="index.php">VOLTAR</a>
                 </div>
                 
             </form>

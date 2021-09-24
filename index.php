@@ -36,6 +36,9 @@
         <body id="body">
         <div align="center" id="divPrincipal">
             <h4 style="margin-bottom: 10px;">Consulta Vendedores</h4>
+            <div align="right" style="margin-bottom: 10px;">
+                <a class="btn btn-dark" href="cadastro.php">CADASTRAR VENDEDORES</a>
+            </div>
             <table id="tabelaConsulta" class="table table-dark table-striped">
             <thead>
             <tr>
