@@ -23,9 +23,7 @@
 
 </style>
 
-
 <?php
-
 
  // impressão de conteúdo
  $pagina = '<html>
